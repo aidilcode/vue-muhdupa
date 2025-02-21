@@ -1,0 +1,95 @@
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: #000;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #6c757d;
+}
+
+.card-tab {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-tab img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 5%;
+}
+
+.card-date {
+    font-size: 0.75rem;
+    color: #adb5bd;
+}
+
+@media (max-width: 767.98px) {
+    .card-tabs {
+        flex-direction: column;
+    }
+
+    .card-tab img {
+        border-radius: 10px 10px 0 0;
+        height: auto;
+    }
+}
+
+.navbar-toggler {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+}
+
+.navbar-toggler-icon {
+    font-size: 28px;
+    color: #0d6efd;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    transform: rotate(90deg);
+    color: #dc3545;
+}
+

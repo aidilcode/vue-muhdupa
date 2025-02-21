@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bgc-primary: rgb(207, 226, 255);
+  --bgc-secondary: rgb(250, 200, 152);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  justify-self: center;
+}
+
+.container {
+  max-width: 1100px !important;
+}
+
+.bungkus-judul-berita {
+  display: flex;
+  justify-content: center;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 50px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: white;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+.shadow-1 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 50px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+.shadow-2 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 30px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+
+.jud-pengumuman {
+  font-size: 16px;
+  margin: 0%;
+  color: #052c65;
+}
+
+.jur-benefit{
+  font-size: 16px;
+  color: rgb(45, 45, 45);
+}
+
+.ket-menu {
+  font-size: 15px;
+  margin: 0%;
+  color: rgb(96, 95, 95);
+  text-decoration: none;
+}
+
+.jarak-konten{
+  margin-top: 8%;
+}
+
+.group-menu {
+  border: 1px solid rgb(228, 227, 227);
+  padding: 15px;
+  border-radius: 20px;
+  transition: color 0.3s ease;
+  justify-content: center;
+}
+
+.menu {
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+}
+
+.menu:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 20px;
+  /* Sudut membulat (opsional) */
+  border: none;
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s ease;
+}
+
+.bendera {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+.btn-jud {
+  border-bottom: 3px solid rgb(1,168,232);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.h4-jud {
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.card-tkj{
+  border: 2px solid #01a8e8 !important;
+  border-radius: 13px !important;
+  border-top-right-radius: 0% !important;
+  border-top-left-radius: 0% !important;
+}
+
+.paling-laris{
+  background-color: #01a8e8;
+  border: none;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 18px;
+  color: white;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}
+
+.card-benefit{
+  border: 2px solid #01a8e8 !important;
+  border-radius: 13px !important;
+}
+
+.welcome-smk{
+  color: #01a8e8;
+}
+
+.btn-eskul {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 119, 0);
+}
+
+.alert-primary {
+  background-color: #eff6ff !important;
+  border-top: none !important;
+  border-right:none !important ;
+  border-bottom: none !important;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px;
+}
+
+.bg-jurusan {
+  border: 1px solid rgb(173, 173, 173);
+  background-color: transparent;
+  padding: 10px 10px;
+}
+
+.bg-eskul {
+  border: none;
+  background-color: rgb(255, 119, 0);
+
+  padding: 10px 10px;
+}
+
+.btn-pilih{
+  border: none;
+  padding: 10px 0px;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 80%;
+  color:#01a8e8;
+}
+
+.btn-first-outline{
+  border: 2px solid #01a8e8;
+  padding: 10px 0px;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 80%;
+  color:#01a8e8;
+}
+
+.btn-tkj{
+  border: none;
+  padding: 12px 0px;
+  background-color: transparent;
+  border-radius: 10px;
+  color:white;
+  width: 80%;
+}
+
+.btn-first{
+  border: none;
+  padding: 12px 0px;
+  background-color:#01a8e8 ;
+  border-radius: 10px;
+  color:white;
+  width: 80%;
+}
+
+.custom-carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-benefit{
+  font-size: 14px;
+  color: #052c65;
+  margin-bottom: 7%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.info{
+  color: #052c65;
+}
+
+.empat-jurusan{
+  color: black;
+  font-size: 15px;
+}
+/* 
+.instagram-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+} */
+
+.navbar {
+  transition: top 0.3s ease-in-out;
+  top: 0; /* Mulai dengan navbar tersembunyi */
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+}
+
+.btn-first, 
+.btn-first-outline {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-first:hover, 
+.btn-first-outline:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-animasi {
+  position: relative;
+  width: 50%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.benefit-animasi:hover .overlay {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.btn-overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Efek teks berganti */
+.welcome-smk {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 3px solid;
+  animation: typing 2s steps(30) 1s forwards, blink 0.7s step-end infinite;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff; /* Warna garis */
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after, 
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+
+/* Efek typing */
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+/* Efek blink cursor */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+/* Efek menghapus */
+@keyframes erase {
+  from {
+      width: 100%;
+  }
+  to {
+      width: 0;
+  }
+}
+
+.bounce2 {
+  animation: bounce2 2s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.9); }
+  to { transform: scale(1); }
+}
